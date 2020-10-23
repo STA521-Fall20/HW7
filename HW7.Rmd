@@ -1,0 +1,44 @@
+---
+title: 'HW7: TEAM  [my team number/name here]'
+author: '[my team members here]'
+date: ''
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+---
+Complete the following problems.  WOrk individually and merge findings after discussion.
+
+1.  Exercise 4 Chapter 8 ISLR
+
+2.  Exercise 5 Chapter 8 ISLR
+
+3.  Problem 9 Chapter 8 ISLR
+
+4. For the OJ data, perform boosting on the training data created above with 1000 trees for a range of values of the shrinkage parameter $\lambda$. 
+
+    a. Produce a plot with  $\lambda$ on the x-axis and the corresponding miss-clasification error rate in the training data on the y-axis.
+   
+    b. Produce a plot with $\lambda$ on the x-axis and th miss-classification error rate in the test data on the y-axis.   Comment on the optimal value of the shrinkage parameter for the training and test miss-classification rate.  How different are they from the  default choice?
+   
+    c. Which variables appear to be the most important predictors in the boosted model?
+
+5.  Apply bagging, random forests, and BART to the OJ data from ISLR using the training data from the problem above and evaluate their performance on the training and test set.  Which predictors are the most important in these methods?  
+
+6. Apply stepwise selection with AIC, lasso and BMA (use `prior='JZS'`) to the training data and evaluate the miss-classification error rate in the training and test data.  Which variables are the most important?
+
+7.  Write up a summary of your findings commenting on performance in-sample and out of sample and findings regarding important variables.  Are there any methods where the in-sample rates are comparable to the out of sample error rates?   (For boosting report results under the default shrinkage value). Comment on how the different methods handle factors.
+
+
+
+
+
+
+
+
+
+    
+    
+
+   
+
